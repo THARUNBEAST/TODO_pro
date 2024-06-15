@@ -1,0 +1,194 @@
+body{
+    display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 0;
+     background: url(powder-color-splash-paint-round-border-banner-card-template-happy-holi-generative-ai_852336-24255.jpg)rgba(109, 109, 118, .1);
+     opacity: .9;
+     background-color: rgba(255, 255, 255, 0.5);
+    overflow: hidden;  
+
+}
+
+h1{
+ /* Adds space between header and form */
+    z-index: 10; /* Ensures header is above other elements */
+    color: rgba(255, 255, 255, 0.696);
+    font-size: xxx-large;
+    text-shadow: 1px 1px 23px black;
+    text-shadow: 0px 0px 51px rgba(8, 8, 238, 0.867);
+;
+    text-shadow: 0px 0px 25px blue;
+    text-shadow: 0 0 5qpx darkblue;
+    
+    animation-name: example;
+   animation-duration: 15s;
+   animation-iteration-count: 1;
+    animation-direction: alternate-reverse; 
+     
+}
+
+
+.maindiv{
+    margin-top: 500px;
+    display: flex;
+    flex-direction: column;
+   z-index: 100;
+    width: 60%;
+    background-color: rgb(54, 64, 64);
+    height: auto;
+    padding: 20px;
+    border-radius: 20px;
+    position: absolute;
+    text-shadow: 1px 1px 2px rgb(222, 205, 205);
+    text-shadow: 0px 0px 25px rgb(207, 207, 233);
+    text-shadow: 0 0 5px rgb(181, 181, 225);
+}
+.maindiv:hover{
+ box-shadow: 3px 3px 200px black;
+ 
+}
+    
+
+input{
+    width: 100%;
+   
+    height: 40px;
+    border-radius: 3px;
+    border: none;
+    
+}
+input:hover{
+    box-shadow: 1px 1px 2px rgb(222, 205, 205);
+    box-shadow: 0px 0px 25px rgb(7, 7, 244);
+    box-shadow: 0 0 5px rgb(5, 109, 169);
+}
+form{
+    display: flex;
+    
+    width: 100%;
+    justify-content: center;
+
+}
+
+
+.seconddiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    word-wrap: break-word;
+    white-space: normal;
+}
+    
+
+ul {
+   
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns:3fr 1fr 1fr ;
+ justify-self: center;
+ align-items: center;
+    background-color: hsl(48, 24%, 96%);
+    padding: 5px;
+   margin-bottom: 0px;
+    border-radius: 6px;
+    word-wrap: break-word;
+    white-space: normal; /* Allow text to wrap */
+}
+ul:hover{
+    box-shadow: 1px 1px 20px rgb(184, 87, 87);
+    box-shadow: 0px 0px 25px rgb(43, 43, 50);
+    box-shadow: 0 0 25px darkblue;
+}
+li{
+
+    margin: 0px;
+    overflow: hidden;
+}
+.add{
+    padding: 13px;
+    border-radius: 2px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 150px;
+    margin-left: -1;
+    color: white;
+    background-color: rgb(15, 244, 15);
+    font-weight: bolder;
+    font-family: Verdana, Tahoma, sans-serif;
+    text-shadow: 1px 1px 2px rgb(222, 205, 205);
+    text-shadow: 0px 0px 25px rgb(207, 207, 233);
+    text-shadow: 0 0 5px rgb(181, 181, 225);
+
+}
+.add:hover{
+    box-shadow: 1px 1px 2px rgb(222, 205, 205);
+    box-shadow: 0px 0px 25px rgb(7, 7, 244);
+    box-shadow: 0 0 5px rgb(5, 109, 169);
+}
+.delete{
+    flex: 3fr 1fr 1fr ;
+   margin-right: 4px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 10px;
+    min-width: 15%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgb(209, 39, 39);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 2px;
+    color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px rgb(255, 0, 34), 0 0 5px rgb(9, 29, 242);
+}
+.Edit{
+
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+     padding: 10px;
+     min-width: 15%;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: bold;
+     cursor: pointer;
+     background-color: rgb(27, 46, 214);
+     color: rgb(255, 255, 255);
+     border: none;
+     border-radius: 2px;
+     color: white;
+     text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+ }
+ .Edit:hover,.delete:hover{
+    box-shadow: 1px 1px 2px black;
+    box-shadow: 0px 0px 25px blue;
+    box-shadow: 0 0 5px darkblue;
+ }
+ 
+@keyframes example {
+  0%   { text-shadow: 1px 1px 2px rgb(9, 49, 105);
+    text-shadow: 0px 0px 25px rgb(55, 218, 14);
+    text-shadow: 0 0 52px rgba(109, 109, 118, 0.207);}
+  25%  { text-shadow: 1px 1px 2px rgb(80, 16, 16);
+    text-shadow: 0px 0px 25px rgb(110, 110, 246);
+    text-shadow: 0 0 5px darkblue;
+    transform: rotateX(90deg);
+    transform: rotatey(45deg);;}
+  50%  { text-shadow: 12px 1px 20px rgb(51, 23, 23);
+     margin-left: 100px;
+    text-shadow: 0px 0px 25px blue;
+    transform: rotate(180deg);
+    text-shadow: 0 0 5qpx darkblue;}
+  75%  { text-shadow: 13px 1px 2px black;
+    text-shadow: 23px 0px 25px blue;
+    margin-right: 100px;
+    transform: rotateX(90deg);
+
+    text-shadow: 0 0 5px darkblue;}
+  100% { text-shadow: 1px 1px 2px black;
+    text-shadow: 0px 56px 25px blue;
+    text-shadow: 0 0 5px darkblue;
+    transform: rotatey(90deg);}
+}
